@@ -13,6 +13,14 @@
 
     <!-- STYLE -->
     <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        background-image: url(./2-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    </style>
 
     <title>ICRA</title>
     <link rel="icon" type="image/x-icon" href="./Logo-icon.png">
@@ -20,53 +28,24 @@
 <body>
         
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="d-flex flex-wrap justify-content-around">
-            <a class="navbar-brand" href="./index.html"><img src="./Logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav justify-content-center me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase ms-2 me-2 active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase ms-2 me-2" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown text-uppercase ms-2 me-2">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">COMMERCIAL RATING</a></li>
-                        <li><a class="dropdown-item" href="#">FINANCIAL INSTITUTION RATING</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown text-uppercase ms-2 me-2">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Published Rating
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">COMMERCIAL RATING - List</a></li>
-                        <li><a class="dropdown-item" href="#">FINANCIAL RATING - List</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase ms-2 me-2" href="#">Criteria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase ms-2 me-2" href="#">Forms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase ms-2 me-2" href="#">Contact</a>
-                    </li>
-                </ul>
-                <div class="social">
-                    
-                </div>
-            </div>
-        </div>
+    <nav>
+      <div class="brand">
+          <a class="logo" href="./index.html"><img src="./Logo.png" alt=""></a>
+      </div>
+      <div class="menu">
+          <ul>
+              <li><a class="nav-link" href="#">Home</a></li>
+              <li><a class="nav-link" href="#">About</a></li>
+              <li><a class="nav-link" href="#">Services</a></li>
+              <li><a class="nav-link" href="#">Published Rating</a></li>
+              <li><a class="nav-link" href="#">Criteria</a></li>
+              <li><a class="nav-link" href="#">Form</a></li>
+              <li><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+      </div>
+      <div class="login">
+          <a href="#" class="btn btn-bounce fs-5 disabled">Login</a>
+      </div>
     </nav>
 
     <!-- Banner -->
@@ -100,7 +79,7 @@
             <h5>Services</h5>
             <h2>What We Do</h2>
         </div>
-        <div class="card-group align-items-center mt-4 bs1">
+        <div class="card-group align-items-center mt-4">
             <div class="card p-2">
               <div class="card-body">
                 <img src="./Icon-1.png" alt="Icon-1" class="icon">
@@ -120,7 +99,7 @@
               </div>
             </div>
             <div class="card p-2">
-                <img src="./1.png" alt="service-img" class="sec-img">
+                <img src="./1.png" alt="service-img" class="srv-img">
             </div>
         </div>
     </div>
@@ -128,10 +107,10 @@
 
     <!-- about -->
     <div class="container space">
-        <div class="row row-cols-1 row-cols-md-2 g-2 align-items-center bs1">
+        <div class="row row-cols-1 row-cols-md-2 g-2 align-items-center">
             <div class="col">
               <div class="card p-2">
-                <img src="./2.png" alt="about img" class="sec-img">
+                <img src="./2.png" alt="about img" class="abt-img">
               </div>
             </div>
             <div class="col">
@@ -153,10 +132,10 @@
 
     <!-- testimonials -->
     <div class="container space">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade bs2" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="card text-center justify-content-center align-items-center">
+                <div class="card text-center justify-content-center align-items-center bg-light">
                     <div class="card-header text-primary fw-bold fs-3">
                       Testimonials
                     </div>
@@ -186,7 +165,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="card text-center justify-content-center align-items-center">
+                <div class="card text-center justify-content-center align-items-center bg-light">
                     <div class="card-header text-primary fw-bold fs-3">
                       Testimonials
                     </div>
@@ -232,7 +211,7 @@
     <div class="container" style="margin-top: 99px;">
         <h5>Our Blog</h5>
         <h2>Our Company News</h2>
-        <div class="card-group align-items-center bs2">
+        <div class="card-group align-items-center">
             <div class="card justify-content-center mt-3">
               <div class="card-body">
                 <h4 class="card-title">Name</h4>
@@ -279,51 +258,49 @@
 
     <!-- Footer -->
     <div class="py-2 px-5 footer mt-5" style="background-color: #e6e6e6">
-        <a class="navbar-brand" href="./index.html"><img src="./Logo.png" alt="" style="width: 15%; background-color:rgb(255, 255, 255); border-radius: 36px; box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;"></a>
-
-        <div class="row justify-content-between">
-            <div class="col mx-3">
-                <h2 class="text fw-500 my-3 text-dark text-uppercase" style="padding-top: 20px;">About</h2>
-                <div class="social-icon my-3">
-                  <a href="#" class="text text-dark fa fa-whatsapp text-decoration-none fs-5 mx-4"></a>
-                  <a href="#" class="text text-dark fa fa-facebook text-decoration-none fs-5 mx-4"></a>
-                  <a href="#" class="text text-dark fa fa-instagram text-decoration-none fs-5 mx-4"></a>
-                  <a href="#" class="text text-dark fa fa-twitter text-decoration-none fs-5 mx-4"></a>
-              </div>
-                <p class="text-dark text">Healthcare For All! <br>
-                  Sewa Hi Sewa is a complete healthcare solution for everyone. Being the first hospital with a medical shop providing 63% off on branded medicines, we aim to bring health facilities for everyone at affordable prices. Our expert team of doctors has expertise in various fields providing the patients with world-class services.
-                </p>
-            </div>
-            <div class="col mx-3">
-                <h2 class="text fw-500 my-3 text-dark text-uppercase" style="padding-top: 20px;">Nevigation</h2>
-                <ul style="list-style: none; margin-left: -30px">
-                    <li class="mt-2">
-                        <a href="./index.html" class="text-decoration-none text text-dark">Home</a>
-                    </li>
-                    <li class="mt-2">
-                        <a href="./about.html" class="text-decoration-none text text-dark">About Us</a>
-                    </li>
-                    <li class="mt-2">
-                        <a href="./services.html" class="text-decoration-none text text-dark">Services</a>
-                    </li>
-                    <li class="mt-2">
-                        <a href="./contact.html" class="text-decoration-none text text-dark">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col mx-3">
-                <h2 class="text fw-500 my-3 text-dark text-uppercase" style="padding-top: 20px;">Contact</h2>
-                <ul style="list-style: none; margin-left: -30px">
-                    <li class="mt-2 text-decoration-none text text-dark">Address</li>
-                    <a style="text-decoration: none;" href="9876543210"><li class="mt-2 text-decoration-none text text-dark">9876543210</li></a>
-                    <li class="mt-2 text-decoration-none text text-dark">info@mail.com</li>
-                </ul>
-            </div>
+        <a class="navbar-brand" href="./index.html"><img src="./Logo.png" alt="" style="width: 15%;"></a>
+        <div class="row d-flex flex-wrap justify-content-between align-items-center">
+          <div class="col mx-3">
+              <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Contact</h2>
+              <ul style="list-style: none; margin-left: -30px">
+                  <li class="mt-2 text-decoration-none text text-dark">Address</li>
+                  <a style="text-decoration: none;" href="9876543210"><li class="mt-2 text-decoration-none text text-dark">9876543210</li></a>
+                  <li class="mt-2 text-decoration-none text text-dark">info@mail.com</li>
+              </ul>
+          </div>
+          <div class="col mx-3">
+              <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">About</h2>
+              <p class="text-dark text">Audit, Inspection, Certification <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A reiciendis atque nostrum voluptatum repudiandae libero veniam ipsa mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus!
+              </p>
+          </div>
+          <div class="col mx-3">
+              <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Subscribe</h2>
+              <ul style="list-style: none; margin-left: -30px">
+                  <li class="mt-2">
+                    <form action="https://formsubmit.co/rishabh@ragaadvertisers.com" method="post" class="d-flex flex-column">
+                      <input class="mt-3 form-control rounded-pill p-2 px-3" type="email" name="email" placeholder="E-mail" required>
+                      <button type="submit" class="btn btn-bounce btn-light rounded-pill fw-bold mt-2" style="width: 100px;">SUBMIT</button>
+                    </form>
+                  </li>
+                  <li class="mt-3">
+                    <h4 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Follow Us:</h4>
+                  </li>
+                  <li class="mt-2">
+                    <div class="social-icon my-3">
+                      <a href="#" class="text text-dark fa fa-whatsapp text-decoration-none fs-5 mx-4"></a>
+                      <a href="#" class="text text-dark fa fa-facebook text-decoration-none fs-5 mx-4"></a>
+                      <a href="#" class="text text-dark fa fa-instagram text-decoration-none fs-5 mx-4"></a>
+                      <a href="#" class="text text-dark fa fa-twitter text-decoration-none fs-5 mx-4"></a>
+                    </div>
+                  </li>
+              </ul>
+          </div>
         </div>
         
         <!-- Copyright -->
         <div class="row">
-            <hr class="bg-danger border-2 my-2 border-top border-dark">
+            <hr class="bg-danger border-2 my-2 border-top border-dark" style="width: 97%;">
         </div>
         <div class="row d-flex align-items-center text-center mx-2">
             <div class="col text text-dark my-1">
