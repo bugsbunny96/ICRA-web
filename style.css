@@ -82,7 +82,7 @@ nav .brand a img {
 /* Main */
 .main {
     height: 90%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .main .container {
     padding: 0 8%;
@@ -117,7 +117,7 @@ nav .brand a img {
 
 /* nav-links */
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
     background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
     background-size: 200% 100%;
     background-position: -100%;
@@ -323,3 +323,37 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 } */
 /* box-shadow-2 */
+
+/* services */
+
+.s1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 27px;
+}
+.s1 h2 {
+    font-weight: bold;
+    color: #107db4;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service h1 ,h2 ,h3 ,h4 {
+    font-weight: bold;
+    color: #107db4;
+    margin-top: 25px;
+}
+.service-data {
+    margin: 27px;
+    padding: 10px 90px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    /* background-color: #e6e6e6 */
+}
+/* services */
