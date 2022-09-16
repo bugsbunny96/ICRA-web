@@ -357,3 +357,28 @@ hr {
     /* background-color: #e6e6e6 */
 }
 /* services */
+
+/* about-bog */
+.bog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1% 10%;
+}
+.bog .row .col .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 27px;
+}
+.bog .card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/* about-bog */
