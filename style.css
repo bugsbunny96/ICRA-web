@@ -12,6 +12,15 @@
     background-color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #107db4;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
 /* LANDING */
 /* hero */
 .hero {
@@ -227,68 +236,6 @@ h2 {
 }
 /* srv-img */
 
-/* testimonials */
-.home-testimonial{
-    background-color: #231834;height: 380px
-}
-.home-testimonial-bottom{
-    background-color: #f8f8f8;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    position: relative;
-    height: 130px;
-    top: 190px
-}
-.home-testimonial h3{
-    color: var(--orange);
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase
-}
-.home-testimonial h2{
-    color: white;
-    font-size: 28px;
-    font-weight: 700
-}
-.testimonial-inner{
-    position: relative;
-    top: -174px
-}
-.testimonial-pos{
-    position: relative;
-    top: 24px
-}
-.testimonial-inner .tour-desc{
-    border-radius: 5px;
-    padding: 40px
-}
-.color-grey-3{
-    font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
-    color: #6c83a2
-}
-.testimonial-inner img.tm-people{
-    width: 60px;
-    height: 60px;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-width: none
-}
-.link-name{
-    font-family: "Montserrat", Sans-serif;
-    font-size: 14px;
-    color: #6c83a2
-}
-.link-position{
-    font-family: "Montserrat", Sans-serif;
-    font-size: 12px;
-    color: #6c83a2
-}
-/* testimonials */
-
 /* b-box */
 .b-box {
     border-radius: 55px 55px 0 55px;
@@ -382,3 +329,114 @@ hr {
 }
 
 /* about-bog */
+
+/* Form-page */
+.fp {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+}
+.fp img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+}
+.fp .card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 25px;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+}
+
+/* cards-tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc;
+    background-color: #f1f1f1; */
+  }
+
+  .tab .nav-link {
+    font-weight: bold;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #93e2ff;
+}
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: #54b3d6;
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+  
+  /* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/* cards-tab */
+
+/* choose-file */
+label.label input[type="file"] {
+    position: absolute;
+    top: -1000px;
+}
+.label {
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 5px;
+    background: #dddddd;
+    display: inline-block;
+}
+.label:hover {
+    background: #54b3d6;
+}
+.label:active {
+    background: #9fa1a0;
+}
+.label:invalid + span {
+    color: #000000;
+}
+.label:valid + span {
+    color: #ffffff;
+}
+/* choose-file */
+/* Form-page */
