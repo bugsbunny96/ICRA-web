@@ -15,3 +15,9 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 // form-tabs
+
+// mobile-menu
+// function toggleMobileMenu(menu) {
+//   menu.classList.toggle('open');
+// }
+// mobile-menu
