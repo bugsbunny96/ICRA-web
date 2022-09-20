@@ -16,8 +16,3 @@ function openCity(evt, cityName) {
 }
 // form-tabs
 
-// mobile-menu
-// function toggleMobileMenu(menu) {
-//   menu.classList.toggle('open');
-// }
-// mobile-menu

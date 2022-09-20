@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -18,190 +18,201 @@
     <link rel="icon" type="image/x-icon" href="./Logo-icon.png">
 </head>
 <body>
-    <div class="page">
-      <nav>
-        <div class="brand">
-            <a class="logo" href="./index.html"><img src="./Logo.png" alt="Logo"></a>
-        </div>
-        <div class="menu">
-          <input type="checkbox" id="check">
-          <label for="check" class="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-          </label>
-            <ul>
-                <li><a class="nav-link" href="./index.html">Home</a></li>
-                <li><a class="nav-link" href="./about.html">About</a></li>
-                <li><a class="nav-link" href="./service.html">Services</a></li>
-                <li><a class="nav-link" href="./pub_rating.html">Published Rating</a></li>
-                <li><a class="nav-link" href="./criteria.html">Criteria</a></li>
-                <li><a class="nav-link" href="./form.html" target="_blank">Form</a></li>
-                <li><a class="nav-link" href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <!-- <div class="login">
-            <a href="./landing.html" class="btn fs-5">Login/Signup</a>
-        </div> -->
-      </nav>
 
-        
-        <div class="main">
-            <!-- Banner -->
-            <img src="./about-banner.jpg" alt="banner-home" class="banner">
-            <!-- Banner -->
-            
-            <h2 class="p-heading">About Us</h2>
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <p>
-                      Empowering organizations with critical credit insights! ICRA has an expert team drawing experience of more than 25 years in Audit, Inspection, and Certification. With the most skilled team of ICRA, we offer a superior on-the-ground presence across UAE.
-                  </p>
-                  <p>
-                      Our ratings significantly influence corporate and financial institutions in better market standing and marketing. ICRA ratings aim to help these institutions showcase their credit capability to the clients. ICRA’s trusted, industry-leading, and independent ratings and strong growth track record set us apart.
-                  </p>
-                </div>
-                <div class="col">
-                    <img src="./2.png" alt="about">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="brand">
+          <a class="logo" href="./index.html"><img src="./Logo.png" style="width: 160px;" alt="Logo"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="menu collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav d-flex justify-content-between align-items-center mx-5 me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="./service.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="./pub_rating.html">Published Rating</a></li>
+              <li class="nav-item"><a class="nav-link" href="./criteria.html">Criteria</a></li>
+              <li class="nav-item"><a class="nav-link" href="./form.html" target="_blank">Form</a></li>
+              <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <!-- <div class="login">
+          <a href="./landing.html" class="btn fs-5">Login/Signup</a>
+      </div> -->
+    </nav>
+    <!-- navbar -->
+
+    <!-- Banner -->
+    <img src="./about-banner.jpg" alt="banner-home" class="banner">
+    <!-- Banner -->
+
+    <div class="space"></div>
+
+    <div class="container">
+        <h2 class="d-flex text-center justify-content-center align-items-center">About Us</h2>
+
+        <div class="card mb-3">
+            <div class="row g-0 d-flex justify-content-center align-items-center">
+              <div class="col-md-4">
+                <img src="./2.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8 px-3 py-2">
+                <div class="card-body">
+                  <p class="card-text">Empowering organizations with critical credit insights! ICRA has an expert team drawing experience of more than 25 years in Audit, Inspection, and Certification. With the most skilled team of ICRA, we offer a superior on-the-ground presence across UAE. <br>Our ratings significantly influence corporate and financial institutions in better market standing and marketing. ICRA ratings aim to help these institutions showcase their credit capability to the clients. ICRA’s trusted, industry-leading, and independent ratings and strong growth track record set us apart.</p>
                 </div>
               </div>
             </div>
-
-            <div class="space"></div>
-            
-            <h2 class="p-heading">BOARD OF GOVERNORS</h2>
-            <div class="bog">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="./ABDULLA photo.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">MR. ZAYED ABDULLA AL ALI</h5>
-                          <p class="card-text text-center"><strong>ABU DHABI | UNITED ARAB EMIRATES </strong><br>
-                            Certified Public Accountant from the Ministry of Economy. Results-oriented with successful “hands-on”. Zayed has more than 17 years of experience in the fields of Accounting, Finance, Audit, VAT, and Business Development across various Government and Semi-Government organizations and also in Private Sectors.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./Ashok photo.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">MR. ASHOKKUMAR KRISHNAKUMAR RAVAL</h5>
-                          <p class="card-text text-center"><strong>SURAT | DUBAI</strong><br>
-                            He was an Ex-General Manager in the State Bank of India and a professional Charted Accountant & Advocate. Experienced financial specialist with excellent analytical skills and a results-driven attitude. Finance Professional with over 25 years of experience in Banking. Managing a multi-cultural professional staff team in UAE. He is also into Gold Business & Private Equity Services including Management by out, securing Private Equity/Debt/Funds for new projects, etc.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./Nathan Photo.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">MR. M. S. NATHAN</h5>
-                          <p class="card-text text-center"><strong>CHENNAI | DUBAI</strong><br>
-                            The Chairman of the Standard Group of Companies in Audit and Finance, Audit Consulting and Mentoring, and Gold Business Trading for 27 years. A well-established and elite business group into an Audit and Accountancy Firm based in Dubai, United Arab Emirates. He has provided professional services to clients in a wide range of these industries. His long lists of highly satisfied clients vouch for his professional excellence. His mission is to provide professional advice and services to address the challenging business needs of our clients with the highest standards of integrity, quality, and efficiency.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./Tushar photo.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">TUSHAR NIRANJAN THAKER</h5>
-                          <p class="card-text text-center"><strong>ZAMBIA</strong><br>
-                            He was an Investment Manager in the Finance Bank Zambia Ltd (Now Atlas Mara Zambia Ltd.) and secondment with Finance Securities Ltd. (Member of Lusaka stock exchange) a professional equity and debt market specialist with African expertise. Experienced for 20 years, last assignments handled currency derivatives, capital raising for Microfinance companies in Africa, currently assisting trade finance companies to establish their relationships/partnerships with pan African banks.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./Imran photo.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">MR. IMRAM KHAN</h5>
-                          <p class="card-text text-center"><strong>Credit-Risk Manager</strong><br><strong>KARACHI | DUBAI</strong><br>
-                            A high-calibre industry professional offering experience amounting to 15 years, majorly across various facets of credit underwriting, compliance, and Credit Analysis domains.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./SAHIL photo.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">MR. SAHIL BANSAL</h5>
-                          <p class="card-text text-center"><strong>CHIEF OPERATING OFFICER</strong><br><strong>AUCKLAND | NEW ZEALAND</strong><br>
-                            Masters in Engineer Project Management from Auckland University of Technology. With 10 years of experience in Sales and Marketing. Highest sales achiever in the biggest retail and wholesale Group in New Zealand.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="./KHILNA photo.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title text-center">MRS. KHILNA MAMLANI</h5>
-                          <p class="card-text text-center"><strong>TANZANIA</strong><br>
-                            A career banker with over 23 years of rich experience in various key areas of banking covering branch management, corporate relationship, credit, treasury operations, and trade finance. Have had the privilege to be at the pinnacle of learning at regular intervals throughout her career. She Had the opportunity to spearhead setting up operations of the newly opened subsidiary of the Bank of Baroda (T) Ltd, in 2004 and boast of being part of the Pioneer team. Currently working at Eximbank Tanzania Ltd, a private indigenous bank, which is among the top 5 banks in Tanzania as Head Trade and Financial Institutions. Her role encompasses managing various corporate relationships for all trade requirements and structuring such deals for import and export. She also overviews relationships with Fl's including various kinds of facilities as required. She assists the entire Corporate Banking and other teams regarding sales of trade products. Prior to working at Exim, she worked in other banks like Bank of Baroda, and NIC in various capacities. Overall, a strong finance professional with a Master’s Degree focused in Economics from the University of Mumbai.</p>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- footer -->
-            <div class="py-2 px-5 footer mt-5" style="background-color: #e6e6e6">
-                <a class="navbar-brand" href="./index.html"><img src="./Logo.png" alt="" style="width: 270px;"></a>
-                <div class="row d-flex flex-wrap justify-content-between align-items-center">
-                  <div class="col mx-3">
-                      <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Contact</h2>
-                      <ul style="list-style: none; margin-left: -30px">
-                        <li class="mt-2 text-decoration-none text text-dark">Shams Business Center, <br>Sharjah Media City Free Zone, <br>Al Messaned, Sharjah, UAE</li>
-                        <a style="text-decoration: none;" href="9876543210"><li class="mt-2 text-decoration-none text text-dark">+971506369493</li></a>
-                        <a style="text-decoration: none;" href="info@icra.com"><li class="mt-2 text-decoration-none text text-dark">info@icra.com</li></a>
-                      </ul>
-                  </div>
-                  <div class="col mx-3">
-                      <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">About</h2>
-                      <p class="text-dark text"><strong>Audit, Inspection, Certification</strong><br>
-                        Empowering organizations with critical credit insights! ICRA has an expert team drawing experience of more than 25 years in Audit, Inspection, and Certification. With the most skilled team of ICRA, we offer a superior on-the-ground presence across UAE.
-                      </p>
-                  </div>
-                  <div class="col mx-3">
-                      <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Subscribe</h2>
-                      <ul style="list-style: none; margin-left: -30px">
-                          <li class="mt-2">
-                            <form action="https://formsubmit.co/rishabh@ragaadvertisers.com" method="post" class="d-flex flex-column">
-                              <input class="mt-3 form-control rounded-pill p-2 px-3" type="email" name="email" placeholder="E-mail" required>
-                              <button type="submit" class="btn btn-bounce btn-light rounded-pill fw-bold mt-2" style="width: 100px;">SUBMIT</button>
-                            </form>
-                          </li>
-                          <li class="mt-3">
-                            <h4 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Follow Us:</h4>
-                          </li>
-                          <li class="mt-2">
-                            <div class="social-icon my-3">
-                                <a href="#" class="text text-dark fa fa-whatsapp text-decoration-none fs-5 mx-4" target="_blank"></a>
-                                <a href="https://www.linkedin.com/company/international-credit-rating-agency-llc-icra/" class="text text-dark fa fa-linkedin text-decoration-none fs-5 mx-4" target="_blank"></a>
-                                <a href="https://www.facebook.com/icra.rating" class="text text-dark fa fa-facebook text-decoration-none fs-5 mx-4" target="_blank"></a>
-                                <a href="https://www.instagram.com/icraratingofficial/" class="text text-dark fa fa-instagram text-decoration-none fs-5 mx-4" target="_blank"></a>
-                                <a href="https://twitter.com/IcraRating" class="text text-dark fa fa-twitter text-decoration-none fs-5 mx-4" target="_blank"></a>
-                                <a href="https://www.youtube.com/channel/UCOfp3mvxbxOozMvQqabMxEg" class="text text-dark fa fa-youtube text-decoration-none fs-5 mx-4" target="_blank"></a>
-                            </div>
-                          </li>
-                      </ul>
-                  </div>
-                </div>
-                
-                <!-- Copyright -->
-                <div class="row">
-                    <hr class="bg-danger border-2 my-2 border-top border-dark" style="width: 97%;">
-                </div>
-                <div class="row d-flex align-items-center text-center mx-2">
-                    <div class="col text text-dark my-1">
-                        <p class="me-3">© Copyright @ 2022. All Right Reserved.
-                            <br>
-                            Developed By: <a href="https://ragaadvertisers.com/" target="_blank" class="text btn btn-bounce text-decoration-none text-danger"><strong>RAGA ADVERTISERS</strong></a></p>
-                    </div>
-                </div>
-            </div>
-            <!-- footer -->
         </div>
     </div>
+
+    <div class="space"></div>
+
+    <div class="container">
+        <h2 class="d-flex text-center justify-content-center align-items-center">BOARD OF GOVERNORS</h2>
+
+        <div class="bog">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="./ABDULLA photo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">MR. ZAYED ABDULLA AL ALI</h5>
+                      <p class="card-text text-center"><strong>ABU DHABI | UNITED ARAB EMIRATES </strong><br>
+                        Certified Public Accountant from the Ministry of Economy. Results-oriented with successful “hands-on”. Zayed has more than 17 years of experience in the fields of Accounting, Finance, Audit, VAT, and Business Development across various Government and Semi-Government organizations and also in Private Sectors.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./Ashok photo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">MR. ASHOKKUMAR KRISHNAKUMAR RAVAL</h5>
+                      <p class="card-text text-center"><strong>SURAT | DUBAI</strong><br>
+                        He was an Ex-General Manager in the State Bank of India and a professional Charted Accountant & Advocate. Experienced financial specialist with excellent analytical skills and a results-driven attitude. Finance Professional with over 25 years of experience in Banking. Managing a multi-cultural professional staff team in UAE. He is also into Gold Business & Private Equity Services including Management by out, securing Private Equity/Debt/Funds for new projects, etc.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./Nathan Photo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">MR. M. S. NATHAN</h5>
+                      <p class="card-text text-center"><strong>CHENNAI | DUBAI</strong><br>
+                        The Chairman of the Standard Group of Companies in Audit and Finance, Audit Consulting and Mentoring, and Gold Business Trading for 27 years. A well-established and elite business group into an Audit and Accountancy Firm based in Dubai, United Arab Emirates. He has provided professional services to clients in a wide range of these industries. His long lists of highly satisfied clients vouch for his professional excellence. His mission is to provide professional advice and services to address the challenging business needs of our clients with the highest standards of integrity, quality, and efficiency.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./Tushar photo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">TUSHAR NIRANJAN THAKER</h5>
+                      <p class="card-text text-center"><strong>ZAMBIA</strong><br>
+                        He was an Investment Manager in the Finance Bank Zambia Ltd (Now Atlas Mara Zambia Ltd.) and secondment with Finance Securities Ltd. (Member of Lusaka stock exchange) a professional equity and debt market specialist with African expertise. Experienced for 20 years, last assignments handled currency derivatives, capital raising for Microfinance companies in Africa, currently assisting trade finance companies to establish their relationships/partnerships with pan African banks.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./Imran photo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">MR. IMRAM KHAN</h5>
+                      <p class="card-text text-center"><strong>Credit-Risk Manager</strong><br><strong>KARACHI | DUBAI</strong><br>
+                        A high-calibre industry professional offering experience amounting to 15 years, majorly across various facets of credit underwriting, compliance, and Credit Analysis domains.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./SAHIL photo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">MR. SAHIL BANSAL</h5>
+                      <p class="card-text text-center"><strong>CHIEF OPERATING OFFICER</strong><br><strong>AUCKLAND | NEW ZEALAND</strong><br>
+                        Masters in Engineer Project Management from Auckland University of Technology. With 10 years of experience in Sales and Marketing. Highest sales achiever in the biggest retail and wholesale Group in New Zealand.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./KHILNA photo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">MRS. KHILNA MAMLANI</h5>
+                      <p class="card-text text-center"><strong>TANZANIA</strong><br>
+                        A career banker with over 23 years of rich experience in various key areas of banking covering branch management, corporate relationship, credit, treasury operations, and trade finance. Have had the privilege to be at the pinnacle of learning at regular intervals throughout her career. She Had the opportunity to spearhead setting up operations of the newly opened subsidiary of the Bank of Baroda (T) Ltd, in 2004 and boast of being part of the Pioneer team. Currently working at Eximbank Tanzania Ltd, a private indigenous bank, which is among the top 5 banks in Tanzania as Head Trade and Financial Institutions. Her role encompasses managing various corporate relationships for all trade requirements and structuring such deals for import and export. She also overviews relationships with Fl's including various kinds of facilities as required. She assists the entire Corporate Banking and other teams regarding sales of trade products. Prior to working at Exim, she worked in other banks like Bank of Baroda, and NIC in various capacities. Overall, a strong finance professional with a Master’s Degree focused in Economics from the University of Mumbai.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Footer -->
+    <div class="py-2 px-5 footer mt-5" style="background-color: #e6e6e6">
+        <a class="navbar-brand" href="./index.html"><img src="./Logo.png" alt="" style="width: 270px;"></a>
+        <div class="row d-flex flex-wrap justify-content-between align-items-center">
+          <div class="col mx-3">
+            <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Contact</h2>
+            <ul style="list-style: none; margin-left: -30px">
+              <li class="mt-2 text-decoration-none text text-dark">Shams Business Center, <br>Sharjah Media City Free Zone, <br>Al Messaned, Sharjah, UAE</li>
+              <a style="text-decoration: none;" href="9876543210"><li class="mt-2 text-decoration-none text text-dark">+971506369493</li></a>
+              <a style="text-decoration: none;" href="info@icra.com"><li class="mt-2 text-decoration-none text text-dark">info@icra.com</li></a>
+            </ul>
+          </div>
+          <div class="col mx-3">
+            <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">About</h2>
+            <p class="text-dark text"><strong>Audit, Inspection, Certification</strong><br>
+              Empowering organizations with critical credit insights! ICRA has an expert team drawing experience of more than 25 years in Audit, Inspection, and Certification. <br>
+              <span><a href="./about.html" class="btn btn-light rounded-pill fw-bold mt-2">Read More</a></span>
+            </p>
+          </div>
+          <div class="col mx-3">
+            <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Subscribe</h2>
+            <ul style="list-style: none; margin-left: -30px">
+              <li class="mt-2">
+                <form action="https://formsubmit.co/rishabh@ragaadvertisers.com" method="post" class="d-flex flex-column">
+                  <input class="mt-3 form-control rounded-pill p-2 px-3" type="email" name="email" placeholder="E-mail" required>
+                  <button type="submit" class="btn btn-light rounded-pill fw-bold mt-2" style="width: 100px;">SUBMIT</button>
+                </form>
+              </li>
+              <li class="mt-3">
+                <h4 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">Follow Us:</h4>
+              </li>
+              <li class="mt-2">
+                <div class="social-icon my-3">
+                  <a href="#" class="text text-dark fa fa-whatsapp text-decoration-none fs-5 mx-4" target="_blank"></a>
+                  <a href="https://www.linkedin.com/company/international-credit-rating-agency-llc-icra/" class="text text-dark fa fa-linkedin text-decoration-none fs-5 mx-4" target="_blank"></a>
+                  <a href="https://www.facebook.com/icra.rating" class="text text-dark fa fa-facebook text-decoration-none fs-5 mx-4" target="_blank"></a>
+                  <a href="https://www.instagram.com/icraratingofficial/" class="text text-dark fa fa-instagram text-decoration-none fs-5 mx-4" target="_blank"></a>
+                  <a href="https://twitter.com/IcraRating" class="text text-dark fa fa-twitter text-decoration-none fs-5 mx-4" target="_blank"></a>
+                  <a href="https://www.youtube.com/channel/UCOfp3mvxbxOozMvQqabMxEg" class="text text-dark fa fa-youtube text-decoration-none fs-5 mx-4" target="_blank"></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="row">
+            <hr class="bg-danger border-2 my-2 border-top border-dark" style="width: 97%;">
+        </div>
+        <div class="row d-flex align-items-center text-center mx-2">
+          <div class="col text text-dark my-1">
+            <p class="me-3">© Copyright @ 2022. All Right Reserved.
+              <br>
+              Developed By: <a href="https://ragaadvertisers.com/" target="_blank" class="text btn text-decoration-none text-danger"><strong>RAGA ADVERTISERS</strong></a>
+            </p>
+          </div>
+        </div>
+    </div>
+    <!-- Footer -->
+
+    <!-- Bootstrap-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script src="./app.js"></script>
 </body>
 </html>

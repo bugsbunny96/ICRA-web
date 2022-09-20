@@ -19,29 +19,42 @@
 </head>
 <body>
     <div class="page">
-        <nav>
-            <div class="brand">
-                <a class="logo" href="./index.html"><img src="./Logo.png" alt="Logo"></a>
-            </div>
-            <div class="menu">
-              <input type="checkbox" id="check">
-              <label for="check" class="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-              </label>
-                <ul>
-                    <li><a class="nav-link" href="./index.html">Home</a></li>
-                    <li><a class="nav-link" href="./about.html">About</a></li>
-                    <li><a class="nav-link" href="./service.html">Services</a></li>
-                    <li><a class="nav-link" href="./pub_rating.html">Published Rating</a></li>
-                    <li><a class="nav-link" href="./criteria.html">Criteria</a></li>
-                    <li><a class="nav-link" href="./form.html" target="_blank">Form</a></li>
-                    <li><a class="nav-link" href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <!-- <div class="login">
-                <a href="./landing.html" class="btn fs-5">Login/Signup</a>
-            </div> -->
-        </nav>
+        
+  <!-- new navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="logo" href="./index.html"><img src="./Logo.png" style="width: 160px;" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav d-flex justify-content-between align-items-center me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pub_rating.html">Published Rating</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./criteria.html">Criteria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./form.html" target="_blank">Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- new navbar -->
 
         <!-- Banner -->
         <img src="./service-banner.jpg" alt="banner-home" class="banner">
@@ -90,7 +103,8 @@
               <div class="col mx-3">
                   <h2 class="text fw-500 my-3 text-uppercase" style="padding-top: 20px; color:#107db4;">About</h2>
                   <p class="text-dark text"><strong>Audit, Inspection, Certification</strong><br>
-                    Empowering organizations with critical credit insights! ICRA has an expert team drawing experience of more than 25 years in Audit, Inspection, and Certification. With the most skilled team of ICRA, we offer a superior on-the-ground presence across UAE.
+                    Empowering organizations with critical credit insights! ICRA has an expert team drawing experience of more than 25 years in Audit, Inspection, and Certification. <br>
+                    <span><a href="./about.html" class="btn btn-light rounded-pill fw-bold mt-2">Read More</a></span>
                   </p>
               </div>
               <div class="col mx-3">
