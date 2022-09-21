@@ -222,6 +222,13 @@ label.label input[type="file"] {
 /* choose-file */
 /* Form-page */
 
+/* about-page-bog */
+.bog .row .col .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+/* about-page-bog */
+
 /* RESPONSIVE/MEDIA-QUERY */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
