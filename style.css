@@ -94,11 +94,11 @@ nav {
 }
 /* card-border */
 
-/* home - service - section */
-img.abt-img {
-    width: 400px;
+/* home - service/abt - section */
+.abt-img {
+    width: 360px;
 }
-/* home - service - section */
+/* home - service/abt - section */
 
 /* Service - page */
 .service-data {
