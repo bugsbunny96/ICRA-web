@@ -6,6 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* paragraph */
+p {
+    /* text-align:justify/left/right/center; */
+    text-align:justify;
+    text-justify:values;
+}
+/* paragraph */
+
 /* headings */
 h1, h2, h3, h4, h5, h6 {
     color: #107db4;
